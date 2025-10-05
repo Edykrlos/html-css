@@ -12,18 +12,23 @@
 
         table {
             border-collapse: collapse;
+            height: 400px;
             width: 400px;
             
         }
 
-        tr.linha {
-            background-color: lightgray;
-        }
+       
 
 
         td {
             border: 1px solid black;
             padding: 10px;
+            text-align: center; /* Centraliza o texto nas células */
+            vertical-align: middle  /* Centraliza o texto verticalmente nas células */;
+        }
+
+        .numero {
+            text-align: right; /* Alinha o texto à direita */
         }
 
         
@@ -40,7 +45,7 @@
         <tr>
 
             <td>A1</td>
-            <td>B1</td>
+            <td class= 'numero'> 500</td>
             <td>C1</td>
             
         </tr>
